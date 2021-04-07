@@ -1,0 +1,48 @@
+.forms,.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+form{
+    width: 40%;
+    background: darkgoldenrod;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: flex-end;
+}
+label{
+    font-family: "Bookman Old Style";
+    color: coral;
+}
+input,textarea{
+    width: 100%;
+    padding: 14px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px darkcyan;
+}
+button{
+    width: 40%;
+    padding: 14px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid darkcyan;
+    background: darkcyan;
+    color: blue;
+    font-family: "Bookman Old Style";
+    font-size: 18px;
+}
+button:hover{
+    background: mediumpurple;
+    color: darkorange;
+    font-weight: bold;
+}
+input:hover,textarea:hover{
+    background: aqua;
+}
+body{
+    background: url("images/contactusbackgr/contactusbackgr.jpg");
+}
